@@ -1,18 +1,4 @@
-function foo1()
-{
-return {
-bar: "hello"
-};
-}
-function foo2()
-{
-return
-{
-bar: "hello"
-};
-}
-
-/*Surprisingly, these two functions will not return the same thing. Rather:
+Surprisingly, these two functions will not return the same thing. Rather:
 
 console.log("foo1 returns:");
 console.log(foo1());
@@ -30,5 +16,5 @@ The reason for this has to do with the fact that semicolons are technically opti
 
 No error is thrown since the remainder of the code is perfectly valid, even though it doesn’t ever get invoked or do anything (it is simply an unused code block that defines a property bar which is equal to the string "hello").
 
-This behavior also argues for following the convention of placing an opening curly brace at the end of a line in JavaScript, rather than on the beginning of a new line. As shown here, this becomes more than just a stylistic preference in JavaScript.*/
+This behavior also argues for following the convention of placing an opening curly brace at the end of a line in JavaScript, rather than on the beginning of a new line. As shown here, this becomes more than just a stylistic preference in JavaScript.
 
