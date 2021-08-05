@@ -4,3 +4,5 @@ race: "dwarf",
 weapon: "axe",
 greet: function() { return `Hi, my name is ${this.name}!`; }, };
 gimli.greet();
+
+//`Hi, my name is gimli!`
