@@ -3,6 +3,6 @@ const gimli =
 race: "dwarf",
 weapon: "axe",
 greet: function() { return `Hi, my name is ${this.name}!`; }, };
-gimli.greet();
+console.log(gimli.greet());
 
-//`Hi, my name is gimli!`
+//"Hi, my name is Gimli!"
