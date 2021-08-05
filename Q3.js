@@ -7,3 +7,4 @@ delete Emp1.company
 console.log(Emp1.company);
 
 //output is : "Rohit"
+
