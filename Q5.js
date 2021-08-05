@@ -5,3 +5,4 @@ return num / 2;
 print(new_arr);
 
 //output: [1,28,39,17,32.5]
+
